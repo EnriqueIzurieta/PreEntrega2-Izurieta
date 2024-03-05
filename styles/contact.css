@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
+/* .syncopate-regular {
+font-family: "Syncopate", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.syncopate-bold {
+font-family: "Syncopate", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+ */
+
+ *{
+padding: 0;
+margin: 0;
+background-color: #152B3F; 
+font-family: "Syncopate", sans-serif;
+font-weight: 700;
+    }
+/* Menu */
+/* Menu */
+.navbar-light .navbar-nav .nav-link{
+    color: #FFAD0D!important;
+}
+
+
+p {
+color: #D9C0A4;
+font-weight: 400;
+    padding: 8px 0px 8px 0px;
+}
+
+h1{
+    color: #D9C0A4;
+    font-size: 32px;
+    padding: 8px 0px 8px 0px;
+}
+
+.boton{
+    margin-top: 16px;
+    padding: 16px;
+    background-color: #FFAD0D;
+    color: #152B3F;
+    border-radius: 16px;
+}
+
+/* Main */
+main{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+/**/
+footer { 
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i {
+    display: flex;
+    flex-grow: 200px;
+    font-size: 42px;
+    list-style-type: none;
+    text-decoration: none;
+    color:#D9C0A4; 
+}
+
+h2 {
+    font-size: 32px;
+    color: #D9C0A4;
+}
+
+.listaInterna {
+    font-weight: 400;
+    margin-top: 6px;
+    color: #D9C0A4;
+}
+
+.classH1 {
+    font-size: 16px;
+}
+/**/
+main{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.contentContact h1{
+  padding: 96px 0;
+  text-align: center;  
+}
+.contentContact div{
+    margin: 16px;
+}
+/* Etiqueta */
+.lblText{
+    color: #D9C0A4;
+}
+/*Cajas de texto*/
+.boxText{
+    width: 100%;
+    border-radius: 21px;
+    height: 42px;
+    background: #fff;
+}
+.boxText{
+    padding-left: 16px;
+}
+.primaryButton{
+    background: #FFAD0D;
+    color: #152B3F;
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+/* Mobile Gama Baja */
+@media (max-width: 480px) {
+    main{
+        grid-template-columns: 1fr;
+    }
+    .contentContact{
+        height: auto;
+        padding: 16px;
+    }
+    .contentContact h1{
+        font-size: 17px;
+        padding: 16px 0;
+        font-weight: 600; 
+      }
+      .contentContact .boxText{
+        font-size: 14px;
+      }
+      .contentContact .boxText{
+        font-size: 14px;
+      }
+      .contentContact .boxText:placeholder{
+        font-size: 14px;
+      }
+      footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+      }
+}
+/* Mobile Gama Alta */
+@media only screen and (max-width: 600px) {
+
+    main{
+        grid-template-columns: 1fr;
+    }
+    .contentContact{
+        height: auto;
+        padding: 16px;
+    }
+    .contentContact h1{
+        font-size: 17px;
+        padding: 16px 0;
+        font-weight: 600; 
+      }
+      .contentContact .boxText{
+        font-size: 14px;
+      }
+      .contentContact .boxText{
+        font-size: 14px;
+      }
+      .contentContact .boxText:placeholder{
+        font-size: 14px;
+      }
+      footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+      }
+}
+/* Baja resolución de Tablets y iPads */
+@media (min-width: 481px) and (max-width: 767px) {
+    main{
+        grid-template-columns: 10% 80% 10%;
+    }
+    .contentContact div{
+        margin: 24px;
+    }
+    .contentContact h1{
+        padding: 32px 0;
+        font-weight: 600; 
+      }
+      footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+      }
+}
+/* Tablets iPads (Portrait) */
+@media (min-width: 768px) and (max-width: 1024px){
+    main{
+        grid-template-columns: 10% 80% 10%;
+    }
+    .contentContact div{
+        margin: 24px;
+    }
+    .contentContact h1{
+        padding: 32px 0;
+        font-weight: 600; 
+      }
+      footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+      }
+}
+/* Laptops y Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    
+    main{
+        grid-template-columns: 25% 50% 25%;
+    }
+    .contentContact div{
+        margin: 24px;
+    }
+    .contentContact h1{
+        padding: 32px 0;
+        font-weight: 600; 
+      }
+      footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+      }
+}

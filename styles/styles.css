@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
+/* .syncopate-regular {
+font-family: "Syncopate", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.syncopate-bold {
+font-family: "Syncopate", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+ */
+
+ *{
+padding: 0;
+margin: 0;
+/*background-color: #152B3F; */
+font-family: "Syncopate", sans-serif;
+font-weight: 700;
+    }
+
+.menu {
+    width: 100%;
+    display: flex;    
+    background-color: #152B3F;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    /*margin: 0px 8px 0px 8px;*/
+    padding: 0px 8px 0px 8px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #D9C0A4;  
+}
+
+nav li :visited{
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color:#D9C0A4;  
+}
+
+p {
+color: #D9C0A4;
+font-weight: 400;
+    padding: 8px 0px 8px 0px;
+}
+
+h1{
+    color: #D9C0A4;
+    font-size: 32px;
+    padding: 8px 0px 8px 0px;
+}
+
+.boton{
+    margin-top: 16px;
+    padding: 16px;
+    background-color: #FFAD0D;
+    color: #152B3F;
+    border-radius: 16px;
+}
+main section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px;
+}
+
+
+
+footer { 
+    height: 100px;
+    width: 100%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+i {
+    display: flex;
+    flex-grow: 200px;
+    font-size: 42px;
+    list-style-type: none;
+    text-decoration: none;
+    color:#D9C0A4; 
+}
+
+h2 {
+    font-size: 32px;
+    color: #D9C0A4;
+}
+
+.listaInterna {
+    font-weight: 400;
+    margin-top: 6px;
+    color: #D9C0A4;
+}
+
+.classH1 {
+    font-size: 16px;
+}
+
+.card {
+   height: 200px;
+   width: 300px;
+   border-radius: 16px;
+}
+
+main.sectionProductos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Contact */
+
